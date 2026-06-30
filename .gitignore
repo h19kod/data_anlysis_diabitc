@@ -41,13 +41,11 @@ env/
 
 # Data Files (Large files)
 *.csv
-*.xlsx
-!diabetes_patients_data.xlsx
-!ROADMAP.xlsx
 *.pkl
 *.joblib
 models/*.pkl
 models/*.joblib
+data/*.csv
 
 # Logs
 *.log
@@ -56,9 +54,6 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
-
-# Streamlit
-.streamlit/
 
 # Environment Variables
 .env
@@ -72,3 +67,6 @@ htmlcov/
 
 # Documentation builds
 docs/_build/
+
+# Kaggle specific
+kaggle.json
